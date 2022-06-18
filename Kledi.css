@@ -1,0 +1,14 @@
+div {
+    background-color: blue;
+    color: white;
+    padding: 25px ;
+    text-align: center;
+}
+
+div:hover {
+    background-color: brown;
+}
+
+div h2:hover{
+    color: black;
+}
