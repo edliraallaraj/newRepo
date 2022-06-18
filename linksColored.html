@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-
 <body>
     <a name="list">The list of links</a>
     <ul>
@@ -20,15 +19,24 @@
         <li><a href="http://internal.com/test" </a>Internal</li>
     </ul>
 
-    <style>
+    <!-- <style>
         a[href*="http"] {
             color: green;
         }
         
-        /* a {
+        a {
             color: red;
-        } */
-    </style>
+        }
+    </style> -->
+
+    <!-- Another way with script -->
+    <script>
+      let selector = 'a[href*="http"]';
+      let links = document.querySelectorAll(selector);
+      links.forEach((link => {
+        link.style.color = "green";
+      }))
+    </script>
 </body>
 
 </html>

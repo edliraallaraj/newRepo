@@ -28,9 +28,50 @@ background-color: aquamarine;
  div h3:hover {
   background-color: blueviolet;
  } */
- p:nth-child(2n+1){
+ /* p:nth-child(2n+1){
   color: blue;
  }
  p:nth-child(2n){
   color: red;
- }
+ } */
+
+
+ /* First Letter */
+ /* p::first-letter {
+  color: red;
+  font-size: xxl;
+ } */
+
+
+ /* First line selector */
+/* .p-line::first-line { */
+  /* border: 1px solid red;
+   */
+  /* color: red; */
+/* } */
+
+/* .p-line {
+  color: blueviolet;
+} */
+/* h2+p::first-line   {
+color: red;
+} */
+
+/* 
+h3::after {
+  content: url("https://c.tenor.com/Wq-MvpjAJksAAAAM/emojilaugh-emoji.gif");
+  color: red;
+  height: 20px;
+  width: 30px;
+} */
+
+/* Marker pseudoelement */
+
+::marker {
+  color: red;
+  font-size: 20px;
+}
+
+ul > li::marker {
+  color: blue;
+}
