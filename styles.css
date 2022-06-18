@@ -1,4 +1,36 @@
-
-div + p {
+/* adjacent style element */
+/* div + p {
   background-color: yellow;
-}
+} */
+
+/* git add .
+git commit -m "Added ...."
+git push  */
+
+/* child selector style  */
+
+/* div > p {
+background-color: aquamarine;
+} */
+
+/* Mouse hover effect */
+ /* div {
+  background-color: blue;
+  color: white;
+  padding: 25px;
+  text-align: center;
+ }
+
+ div:hover {
+  background-color: brown;
+ }
+
+ div h3:hover {
+  background-color: blueviolet;
+ } */
+ p:nth-child(2n+1){
+  color: blue;
+ }
+ p:nth-child(2n){
+  color: red;
+ }
