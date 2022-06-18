@@ -22,3 +22,12 @@ div:hover {
 p:hover {
     color: rgb(224, 195, 30);
 } */
+
+/* Nth child/select Odd/Even */
+
+/* p:nth-child(2n){
+    color: rgb(230, 140, 23);
+}
+p:nth-child(2n+1){
+    color: rgb(102, 40, 131);
+} */
