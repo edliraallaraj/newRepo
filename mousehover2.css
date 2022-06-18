@@ -1,0 +1,10 @@
+div{
+    background-color: aqua;
+    color: black;
+    padding: 25px;
+    text-align: center;
+}
+p:hover{
+    color:brown;
+
+ }

@@ -1,0 +1,12 @@
+/*mouse over effect*/
+div{
+    background-color: aqua;
+    color:rgb(8, 13, 17);
+    padding: 25px;
+    text-align: center;
+}
+
+div:hover{
+    background-color: brown;
+
+}
