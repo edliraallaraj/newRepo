@@ -1,0 +1,7 @@
+* {
+    background-color: blue;
+}
+
+div + p {
+    background-color: white;
+}
