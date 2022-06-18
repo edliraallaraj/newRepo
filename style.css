@@ -1,3 +1,11 @@
-div + p {   /*style first paragraph after every div*/
+/* Adjacent Sibling Selector style first paragraph after every div*/
+/* div + p {   
+    color: rgb(171, 53, 187);
+} */
+
+/* Child Selector selects all the elements that are in a parent element.
+All the p that are in the DIV, not the one in the section*/
+
+div>p {
     color: rgb(171, 53, 187);
 }
