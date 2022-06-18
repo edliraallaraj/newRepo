@@ -1,3 +1,33 @@
+/* Adjacent Sibling Selector
 div + p{
     color: red;
+} */
+
+
+/* Child Selector
+div > p, section { /* selecting the children of the "div" that are "p" *
+    color:red;
+} */
+
+/* Mouse hover */
+/* div{
+    padding: 25px;
+    text-align: center;
+    font-size: 2rem;
+}
+div:hover{
+    background: #000;
+    color: red;  
+}
+p:hover {
+    color: blue;
+} */
+
+
+/* Nth child selector */
+p:nth-child(odd) {
+    background-color: red;
+}
+p:nth-child(even) {
+    background-color: black;
 }
