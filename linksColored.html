@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a name="list">The list of links</a>
+    <ul>
+        <li><a href="valand.com" </a>VALAND Mreti</li>
+        <li><a href="http://google.com" </a>Google</li>
+        <li><a href="/tutorial" </a>BrokeLink Tutorial</li>
+        <li><a href="/local/path" </a>Local Path</li>
+        <li><a href="ftp://ftp.com/my.zip" </a>My zip</li>
+        <li><a href="http://nodejs.org" </a>Node js</li>
+        <li><a href="http://internal.com/test" </a>Internal</li>
+    </ul>
+
+    <!-- <style>
+        a[href*="http"] {
+            color: green;
+        }
+        
+        a {
+            color: red;
+        }
+    </style> -->
+
+    <!-- Another way with script -->
+    <script>
+      let selector = 'a[href*="http"]';
+      let links = document.querySelectorAll(selector);
+      links.forEach((link => {
+        link.style.color = "green";
+      }))
+    </script>
+</body>
+
+</html>
